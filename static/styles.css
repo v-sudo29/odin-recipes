@@ -1,1 +1,52 @@
 /* styles.css */
+* {
+    background: rgb(255, 235, 178);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(0, 132, 255);
+}
+
+a:visited {
+    color: rgb(0, 157, 255);
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(255, 140, 0)
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(156, 90, 44)
+}
+
+.parentlist {
+    text-align: center;
+}
+
+.list {
+    font-size: 22px;
+    line-height: 2.5;
+    display: inline-block;
+    text-align: left;
+}
+
+li {
+    text-align: left;
+}
+
+.zoom {
+    transition: transform .4s;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
