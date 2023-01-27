@@ -39,7 +39,12 @@ h2 {
 }
 
 li {
+    transition: transform .4s;
     text-align: left;
+}
+
+li:hover {
+    transform: scale(1.5);
 }
 
 .zoom {
